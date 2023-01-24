@@ -1,7 +1,8 @@
 p{
-	font-family: Courier;
+	font-family: Helvetica;
 	width: 28em;
 	font-size: 10pt;
+	font-weight: 100;
 	background-color: #FAEBD7;
 	line-height: 150%;
 	cursor: grab;
