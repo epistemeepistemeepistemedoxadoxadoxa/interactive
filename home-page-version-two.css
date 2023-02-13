@@ -1,0 +1,145 @@
+.container {
+  display:flex;
+  flex-direction: row;
+  justify-content: left;
+  border: 0px solid red;
+  margin-left: 50px;
+}
+
+.containerascii{
+  border: 0px solid red;
+}
+
+
+.containerascii:hover{
+  cursor: crosshair;
+}
+
+.ascii{
+  font-family:monospace; 
+  white-space:pre-wrap;  
+  text-align:center;
+  font-size: .555vw;}
+
+.asciihead{
+  margin-left: 20px;
+}
+
+.title1{
+    border: 0px solid blue;
+    padding: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Courier";
+    font-size: 10pt;
+}
+
+.title1:hover{
+    color: blue;
+    cursor: crosshair;
+}
+
+.title2{
+    border: 0px solid blue;
+    padding: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Courier";
+    font-size: 10pt;
+}
+
+.title2:hover{
+    color: blue;
+    cursor: crosshair;
+}
+
+.title3{
+    border: 0px solid blue;
+    padding: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Courier";
+    font-size: 10pt;
+}
+
+.title3:hover{
+    color: blue;
+    cursor: crosshair;
+}
+
+.title4{
+    border: 0px solid blue;
+    padding: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Courier";
+    font-size: 10pt;
+}
+
+.title4:hover{
+    color: blue;
+    cursor: crosshair;
+}
+
+
+.titletype{
+    border: 0px solid blue;
+    padding: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Courier";
+    font-size: 10pt;
+}
+
+.titletype:hover{
+    color: blue;
+    cursor: crosshair;
+}
+
+.titlebox{
+      border: 1px solid blue;
+}
+
+
+a:visited {
+  color: beige;
+  text-decoration: none;
+}
+
+a:link { 
+  color: black;
+  text-decoration: none; 
+}
+
+
+.apoem{
+    border: 0px solid blue;
+    padding: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Courier";
+    font-size: 10pt;
+    transition: 4s;
+}
+
+.apoem a { position:relative; }
+.apoem a span {
+  position:center; 
+  display:none; 
+  z-index:99; 
+  margin: 20px;
+}
+.apoem a:hover span {
+  padding: 50 ;
+  display: block; 
+  border: .5px solid black;
+  max-width: 70 vh;
+}
+
+.apoem a:hover:after {
+    content: url(image/circle.PNG); /* no need for qoutes */
+    display: block;
+}
+
+
+
