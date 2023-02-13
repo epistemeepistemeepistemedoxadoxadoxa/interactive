@@ -133,8 +133,13 @@ a:link {
   padding: 50 ;
   display: block; 
   border: .5px solid black;
-  max-width: 70 vh;
 }
+
+img{
+  max-width: 50vh;
+}
+
+
 
 .apoem a:hover:after {
     content: url(image/circle.PNG); /* no need for qoutes */
