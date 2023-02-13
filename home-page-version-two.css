@@ -11,9 +11,6 @@
 }
 
 
-.containerascii:hover{
-  cursor: crosshair;
-}
 
 .ascii{
   font-family:monospace; 
@@ -135,15 +132,33 @@ a:link {
   border: .5px solid black;
 }
 
-img{
-  max-width: 50vh;
+
+.headercontainer {
+  display:flex;
+  flex-direction: row;
+  justify-content: left;
+  border: 0px solid red;
+  margin-left: 20px;
 }
 
+img{
+  max-width: 50vh;
+  pointer-events: none;
+}
+
+
+img:hover{
+  pointer-events: none;
+}
 
 
 .apoem a:hover:after {
     content: url(image/circle.PNG); /* no need for qoutes */
     display: block;
+}
+
+p:hover{
+  cursor: crosshair;
 }
 
 
