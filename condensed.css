@@ -90,7 +90,7 @@ a:link {
 .title8:hover{
     cursor: crosshair;
     animation-name: hover;
-  animation-duration: 3s;
+  animation-duration: 1s;
   animation-timing-function: ease;
   opacity: 60%;
 }
