@@ -58,7 +58,7 @@ a:link {
 .title:hover{
     cursor: crosshair;
     animation-name: hover;
-  animation-duration: 6s;
+  animation-duration: 1s;
   animation-timing-function: ease;
   opacity: 60%;
 }
@@ -90,7 +90,7 @@ a:link {
 .title8:hover{
     cursor: crosshair;
     animation-name: hover;
-  animation-duration: 1s;
+  animation-duration: 3s;
   animation-timing-function: ease;
   opacity: 60%;
 }
