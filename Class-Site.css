@@ -3,7 +3,7 @@
 	display: flex;
 	justify-content: flex-start;
 	margin-left: 1vh;
-	margin-top: 3vh;
+	margin-top: 2vh;
 	align-content: center;
 	font-size: .62vw; 
 }
@@ -22,6 +22,7 @@ body{
 	 color:white;
 	 background-image: url('images/homepage-bg.gif');
      background-image: src="preview.gif" loop=infinite /;
+     background-size: 100% 100%;
 	}
 
 @font-face {
