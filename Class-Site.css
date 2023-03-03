@@ -1,0 +1,42 @@
+
+.container{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 5vh;
+	align-content: center;
+
+}
+
+body{
+	 font-family: 'Franklin ITC Pro';
+	 color:white;
+	 background-image: url('images/homepage-bg.gif');
+     background-image: src="preview.gif" loop=infinite /;
+	}
+
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('SourceSerifPro-Light.woff2') format('woff2'),
+        url('SourceSerifPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Franklin ITC Pro';
+    src: url('FranklinITCPro-Thin.woff2') format('woff2'),
+        url('FranklinITCPro-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Franklin ITC Pro';
+    src: url('FranklinITCPro-Light.woff2') format('woff2'),
+        url('FranklinITCPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
