@@ -41,9 +41,13 @@
 		<script type="module">
 
 			import * as THREE from 'three';
+			import { OrbitControls } from '/three.js/examples/jsm/controls/OrbitControls.js';
+			import { FBXLoader } from '/three.js/examples/jsm/loaders/FBXLoader.js';
+
 
 			let camera, scene, renderer, mesh, material;
 			const drawStartPos = new THREE.Vector2();
+
 
 			init();
 			setupCanvasDrawing();
@@ -53,6 +57,7 @@
 
 				camera = new THREE.PerspectiveCamera( 50, window.innerWidth / window.innerHeight, 1, 2000 );
 				camera.position.z = 500;
+
 
 				scene = new THREE.Scene();
 
@@ -146,8 +151,8 @@
 
 				requestAnimationFrame( animate );
 
-				mesh.rotation.x += 0.01;
-				mesh.rotation.y += 0.01;
+				mesh.rotation.x += 0.00;
+				mesh.rotation.y += 0.00;
 
 				renderer.render( scene, camera );
 
@@ -157,4 +162,6 @@
 
 	
 
-<canvas data-engine="three.js r150" width="2559" height="1195" style="display: block; width: 2559px; height: 1195px;"></canvas></body></html>
+<canvas data-engine="three.js r150" width="device-width" height="device-height" style="display: block; width: 0px; height: 0px;"></canvas>
+</body>
+</html>

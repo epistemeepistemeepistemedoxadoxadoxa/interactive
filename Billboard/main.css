@@ -1,15 +1,60 @@
+@font-face {
+    font-family: 'helvetica_neuelight';
+    src: url('Fonts/helveticaneue-light-08-webfont.woff2') format('woff2'),
+         url('Fonts/helveticaneue-light-08-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'helvetica_neuelight_italic';
+    src: url('Fonts/helveticaneue-lightitalic-09-webfont.woff2') format('woff2'),
+         url('Fonts/helveticaneue-lightitalic-09-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'helvetica_neuethin';
+    src: url('Fonts/helveticaneue-thin-13-webfont.woff2') format('woff2'),
+         url('Fonts/helveticaneue-thin-13-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'helvetica_neuethin_italic';
+    src: url('Fonts/helveticaneue-thinitalic-14-webfont.woff2') format('woff2'),
+         url('Fonts/helveticaneue-thinitalic-14-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
 	margin: 0;
 	background-color: #000;
 	color: #fff;
-	font-family: Monospace;
+	font-family: helvetica_neuelight;
 	font-size: 13px;
 	line-height: 24px;
 	overscroll-behavior: none;
 }
 
 a {
-	color: #ff0;
+	color: #ffffff;
 	text-decoration: none;
 }
 
@@ -23,12 +68,37 @@ button {
 }
 
 #info {
+	display: grid;
+	grid-template-columns: 15% 15% 15% 15% 15%;
+	grid-template-rows: 20% 20% 20% 20% 20%;
+	column-gap: 5ch;
+/*  	border: 1px solid red;*/
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+	z-index: 1; /* TODO Solve this in HTML */
+}
+
+
+#info2 {
+	display: grid;
+	grid-template-columns: 15% 15% 15% 15% 15%;
+	grid-template-rows: 20% 20% 20% 20% 20%;
+  	border: 1px solid red;
 	position: absolute;
 	top: 0px;
 	width: 100%;
 	padding: 10px;
 	box-sizing: border-box;
-	text-align: center;
+	text-align: left;
 	-moz-user-select: none;
 	-webkit-user-select: none;
 	-ms-user-select: none;

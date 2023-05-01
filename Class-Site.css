@@ -23,6 +23,7 @@ body{
 	 background-image: url('images/homepage-bg.gif');
      background-image: src="preview.gif" loop=infinite /;
      background-size: 100% 100%;
+     text-align: left;
 	}
 
 @font-face {
